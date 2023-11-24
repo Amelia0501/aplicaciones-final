@@ -34,7 +34,8 @@ class ChessGame(tk.Tk):
                 self.selected_piece = (row, col)
         else:
             self.move_piece(row, col)
-                
+
+
 
     
 chess_game = ChessGame()
