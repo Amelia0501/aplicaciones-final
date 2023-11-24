@@ -34,6 +34,7 @@ class ChessGame(tk.Tk):
                 self.selected_piece = (row, col)
         else:
             self.move_piece(row, col)
+<<<<<<< .merge_file_VW8swk
             
     def refresh_board(self):
         for widget in self.winfo_children():
@@ -49,6 +50,10 @@ class ChessGame(tk.Tk):
         self.refresh_board()
         
                 
+=======
+
+
+>>>>>>> .merge_file_VrbPid
 
     
 chess_game = ChessGame()
